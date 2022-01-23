@@ -354,7 +354,7 @@ function commandHandler1(command, character, roomItem) {
   document.getElementById("textArea").innerHTML = output;
 }
 function startGame() {
-  let currentRoom = Room4;
+  let currentRoom = Room1;
   displayRoom(currentRoom);
   document.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
